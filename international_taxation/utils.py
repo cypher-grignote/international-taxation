@@ -2,7 +2,8 @@ def country_input():
     countries = {
         '1': 'France',
         '2': 'Hungary',
-        '3': 'Czech Republic'
+        '3': 'Czech Republic',
+        '4': 'Bulgaria'
     }
     country = None
     first_key = min(countries.keys())
@@ -21,7 +22,8 @@ def legal_status_input(country):
     legal_statuses = {
         'France': ['SARL', 'SASU', 'Micro-entrepreneur'],
         'Hungary': ['KFT', 'Solo B2B', 'Solo B2C (KATA)'],
-        'Czech Republic': ['OSVČ', 'SRO']
+        'Czech Republic': ['OSVČ', 'SRO'],
+        'Bulgaria': []
     }
 
 def day_required(tjm, ca):
